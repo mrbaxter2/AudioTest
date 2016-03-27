@@ -10,24 +10,12 @@
     tools:context="com.example.matt.audiotest.AudioPlayer">
 
     <Button
-        android:id="@+id/buttonPlay"
+        android:id="@+id/buttonplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
-        android:onClick="AudioTest"
+        android:onClick="playSound"
         android:text="Play" />
-
-    <SeekBar
-        android:id="@+id/seekBarTimer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="157dp"
-        android:indeterminate="false"
-        android:max="10"
-        android:progress="5" />
 </RelativeLayout>
